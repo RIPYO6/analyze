@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment Variables & Secrets (CRITICAL for safety)
+.env
+.env.*
+*.log
+
+# Project-specific local configs
+.python-version
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS Metadata
+.DS_Store
+Thumbs.db
